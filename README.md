@@ -13,6 +13,7 @@ supported actions:
 * `exit` (kill leftwm)
 * other operations will parsed as shell action
 <br/>
+
 `def <name> <value>` - macros `<name>` defenition with value `<value>` <br/>
 `set <name> <value>` - set property `<name>` to value `<value>` <br/>
 
