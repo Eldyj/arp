@@ -1,6 +1,6 @@
 # arp (a ron preprocessor)
 
-## language usage
+## syntax
 
 `bind <key+combo> <action>` - bind `<action>` to `<key+combo>` <br/>
 supported actions:
@@ -17,7 +17,7 @@ supported actions:
 `def <name> <value>` - macros `<name>` defenition with value `<value>` <br/>
 `set <name> <value>` - set property `<name>` to value `<value>` <br/>
 
-## preprocessor usage
+## usage
 
 ```sh
 python arp.py <file>.arp
