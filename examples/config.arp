@@ -1,0 +1,24 @@
+def term kitty
+def browser qutebowser
+def menu rofi -show drun
+def tag_mod Mod4
+def screenshot_selection maim -s | xclip -selection clipboard -t image/png
+def screenshot_screen maim -s | xclip -selection clipboard -t image/png
+def music_player term musikcube
+set tags 1 2 3 4 5 6 7 8 9
+set modkey Mod4
+set mousekey Mod4
+set layouts MainAndVertStack
+bind modkey+enter term
+bind modkey+c close
+bind modkey+r reload
+bind modkey+x exit
+bind modkey+j focus up
+bind modkey+k focus down
+bind modkey+shift+j move up
+bind modkey+shift+k move down
+bind modkey+i browser
+bind modkey+d menu
+bind modkey+s screenshot_selection
+bind modkey+a screenshot_screen
+bind modkey+m music_player
